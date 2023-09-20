@@ -8,6 +8,9 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+  FaPython,
+  FaNodeJs,
+  FaJava,
 } from 'react-icons/fa';
 
 import {
@@ -15,6 +18,13 @@ import {
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiGo,
+  SiDjango,
+  SiMysql,
+  SiRubyonrails,
+  SiTensorflow,
+  SiTableau,
+  SiScikitlearn,
 } from 'react-icons/si';
 
 //  about data
@@ -23,7 +33,7 @@ export const aboutData = [
     title: 'skills',
     info: [
       {
-        title: 'Web Development',
+        title: 'Frontend Development',
         icons: [
           <FaHtml5 />,
           <FaCss3 />,
@@ -31,12 +41,26 @@ export const aboutData = [
           <FaReact />,
           <SiNextdotjs />,
           <SiFramer />,
-          <FaWordpress />,
+          <FaNodeJs />,
         ],
       },
       {
         title: 'UI/UX Design',
         icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+      },
+      {
+        title: 'Backend Development',
+        icons: [
+          <FaPython />,
+          <FaJava />,
+          <SiMysql />,
+          <SiRubyonrails />,
+          <SiGo />,
+          <SiDjango />,
+          <SiTensorflow />,
+          <SiTableau />,
+          <SiScikitlearn />,
+        ],
       },
     ],
   },
@@ -44,12 +68,8 @@ export const aboutData = [
     title: 'awards',
     info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
-      },
-      {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: 'WIP',
+        stage: 'WIP',
       },
     ],
   },
@@ -57,16 +77,16 @@ export const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Software Engineer I - Eriksson Software',
+        stage: '2021 - 2023',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Software Developer - Synergis',
+        stage: '2020 - 2021',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Intern - Salesforce',
+        stage: '2019',
       },
     ],
   },
@@ -74,16 +94,8 @@ export const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
-      },
-      {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
-      },
-      {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Bachelors Degree, Computer Science - USF',
+        stage: '2021',
       },
     ],
   },
