@@ -30,26 +30,21 @@ import {
 //  about data
 export const aboutData = [
   {
-    title: 'skills',
+    title: 'technologies',
     info: [
       {
-        title: 'Frontend Development',
+        title: 'Frontend',
         icons: [
           <FaHtml5 />,
           <FaCss3 />,
           <FaJs />,
           <FaReact />,
           <SiNextdotjs />,
-          <SiFramer />,
           <FaNodeJs />,
         ],
       },
       {
-        title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
-      },
-      {
-        title: 'Backend Development',
+        title: 'Backend',
         icons: [
           <FaPython />,
           <FaJava />,
@@ -61,15 +56,6 @@ export const aboutData = [
           <SiTableau />,
           <SiScikitlearn />,
         ],
-      },
-    ],
-  },
-  {
-    title: 'awards',
-    info: [
-      {
-        title: 'WIP',
-        stage: 'WIP',
       },
     ],
   },
