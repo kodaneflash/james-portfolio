@@ -12,7 +12,6 @@ const Socials = () => {
     linkedin: 'https://www.linkedin.com/in/archermjames/',
     github: 'https://github.com/jamesonarcher',
     stackoverflow: 'https://stackoverflow.com/users/your-id',
-    email: 'mailto:jamesonmarcher@gmail.com',
     twitter: 'https://twitter.com/your-username',
   };
 
@@ -26,9 +25,6 @@ const Socials = () => {
       </a>
       <a href={socialLinks.stackoverflow} className='hover:text-accent transition-all duration-300'>
         <RiStackOverflowFill />
-      </a>
-      <a href={socialLinks.email} className='hover:text-accent transition-all duration-300'>
-        <RiMailAddFill />
       </a>
       <a href={socialLinks.twitter} className='hover:text-accent transition-all duration-300'>
         <RiTwitterFill />
