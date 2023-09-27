@@ -32,7 +32,7 @@ const Home = () => {
           <motion.p
             variants={fadeIn('down', 0.3)}
             initial='hidden'
-            a nnimate='show'
+            animate='show'
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
