@@ -1,7 +1,4 @@
-// links
-import Link from 'next/link';
-
-// icons
+// socials.js
 import {
   RiLinkedinBoxFill,
   RiGithubFill,
@@ -11,23 +8,31 @@ import {
 } from 'react-icons/ri';
 
 const Socials = () => {
+  const socialLinks = {
+    linkedin: 'https://www.linkedin.com/in/archermjames/',
+    github: 'https://github.com/jamesonarcher',
+    stackoverflow: 'https://stackoverflow.com/users/your-id',
+    email: 'mailto:jamesonmarcher@gmail.com',
+    twitter: 'https://twitter.com/your-username',
+  };
+
   return (
     <div className='flex items-center gap-x-5 text-lg'>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
+      <a href={socialLinks.linkedin} className='hover:text-accent transition-all duration-300'>
         <RiLinkedinBoxFill />
-      </Link>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
+      </a>
+      <a href={socialLinks.github} className='hover:text-accent transition-all duration-300'>
         <RiGithubFill />
-      </Link>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
+      </a>
+      <a href={socialLinks.stackoverflow} className='hover:text-accent transition-all duration-300'>
         <RiStackOverflowFill />
-      </Link>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
+      </a>
+      <a href={socialLinks.email} className='hover:text-accent transition-all duration-300'>
         <RiMailAddFill />
-      </Link>
-      <Link href={''} className='hover:text-accent transition-all duration-300'>
+      </a>
+      <a href={socialLinks.twitter} className='hover:text-accent transition-all duration-300'>
         <RiTwitterFill />
-        </Link>
+      </a>
     </div>
   );
 };
