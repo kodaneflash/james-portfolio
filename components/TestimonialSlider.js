@@ -2,24 +2,24 @@
 export const testimonialSlider = [
   {
     image: '/t-avt-1.png',
-    name: 'Anne Smith',
-    position: 'Customer',
+    name: 'Elena Rodriguez',
+    position: 'CEO, Rodriguez Retail Group',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Working with James & Akkio was a game-changer for our startup. Their innovative AI-driven solutions not only streamlined our operations but also significantly boosted our market presence',
   },
   {
     image: '/t-avt-2.png',
-    name: 'Jane Doe',
-    position: 'Customer',
+    name: 'Liam Thompson',
+    position: 'Founder, Thompson Tech Solutions',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'James business consulting was a revelation for us. The AI-powered insights he provided transformed our decision-making process, giving us a competitive edge we didnt think was possible',
   },
   {
     image: '/t-avt-3.png',
-    name: 'Jhon Doe',
-    position: 'Customer',
+    name: 'Aiden Kim',
+    position: 'Director of Operations, Kim & Associates',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'James took the time to deeply understand the unique challenges our firm faced. He then conceptualized and built BizFlow, a tailored application that revolutionized our workflow. Its clear that James doesnt just offer software; he offers transformative solutions',
   },
 ];
 
