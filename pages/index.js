@@ -30,7 +30,6 @@ const Home = () => {
             </span>
             <TypeAnimation
               sequence={[
-                "James",
                 1000,
                 "Software Engineer",
                 1000,
