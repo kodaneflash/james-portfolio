@@ -6,7 +6,6 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  FaWordpress,
   FaFigma,
   FaPython,
   FaNodeJs,
@@ -15,9 +14,6 @@ import {
 
 import {
   SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiAdobephotoshop,
   SiGo,
   SiDjango,
   SiMysql,
@@ -63,16 +59,20 @@ export const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'Software Engineer I - Eriksson Software',
+        title: 'Co-Founder & CEO - Akkio, Inc',
         stage: '2021 - 2023',
       },
       {
-        title: 'Software Developer - Synergis',
+        title: 'Software Engineer I - Eriksson Software',
         stage: '2020 - 2021',
       },
       {
+        title: 'Software Developer - Synergis',
+        stage: '2019 - 2020',
+      },
+      {
         title: 'Intern - Salesforce',
-        stage: '2019',
+        stage: '2018',
       },
     ],
   },
@@ -124,8 +124,10 @@ const About = () => {
             exit='hidden'
             className='h2'
           >
-            Captivating <span className='text-accent'>stories</span> birth
-            magnificent designs.
+            Every <span className='text-accent'>story</span> leads to 
+            impactful creations.
+
+
           </motion.h2>
           <motion.p
             variants={fadeIn('right', 0.4)}
@@ -134,9 +136,12 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            10 years ago, I began freelancing as a developer. Since then, I've
-            done remote work for agencies, counsulted for startups, and
-            collaborated on digital products for business and consumer use.
+             Driven by innovation and a passion for technology, I've embarked on 
+             numerous ventures in the tech world. As a seasoned software engineer, 
+             I've had the privilege of founding multiple startups, each of which has 
+             garnered significant attention and subsequently been acquired. My journey 
+             has been marked by relentless pursuit of excellence, and my track record proves my success.
+
           </motion.p>
           {/* counters */}
           <motion.div
@@ -150,16 +155,16 @@ const About = () => {
               {/* experience */}
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={10} duration={5} /> +
+                  <CountUp start={0} end={6} duration={5} /> +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
-                  Years of experience
+                  Years of Experience
                 </div>
               </div>
               {/* clients */}
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={250} duration={5} /> +
+                  <CountUp start={0} end={650} duration={5} /> +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   Satisfied clients
@@ -168,16 +173,16 @@ const About = () => {
               {/* projects */}
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={650} duration={5} /> +
+                  <CountUp start={0} end={5} duration={5} /> +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
-                  Finished projects
+                  Successful Startups
                 </div>
               </div>
               {/* awards */}
               <div className='relative flex-1'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={8} duration={5} /> +
+                  <CountUp start={0} end={11} duration={5} /> +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   Winning awards

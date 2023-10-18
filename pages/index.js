@@ -1,12 +1,12 @@
-// next image
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
+import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
+import Link from "next/link";
 
 // components
 import ParticlesContainer from '../components/ParticlesContainer';
 import ProjectsBtn from '../components/ProjectsBtn';
-
-// framer motion
-import { motion } from 'framer-motion';
 
 // variants
 import { fadeIn } from '../variants';
@@ -25,8 +25,24 @@ const Home = () => {
             exit='hidden'
             className='h1'
           >
-            Transforming Ideas <br /> Into{' '}
-            <span className='text-accent'>Digital Reality</span>
+            <span className="text-accent">
+                Hello, I&apos;m a{" "}
+            </span>
+            <TypeAnimation
+              sequence={[
+                "James",
+                1000,
+                "Software Engineer",
+                1000,
+                "Web Developer",
+                1000,
+                "AI/ML Engineer",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
           </motion.h1>
           {/* subtitle */}
           <motion.p
@@ -36,8 +52,11 @@ const Home = () => {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-           I'm a Software Engineer that welcomes challenges and architects solutions. 
-           I have extensive experience in building complex applications in modern technologies.
+            I'm a Software Engineer who has initiated multiple startups, 
+            which have secured funding and were subsequently acquired. This journey 
+            has honed my ability to welcome challenges, architect solutions, and build 
+            complex applications using modern technologies. My experience is a testament 
+            to my credibility and dedication in the tech industry.
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>

@@ -22,7 +22,7 @@ const Work = () => {
               exit='hidden'
               className='h2 xl:mt-12'
             >
-              My work <span className='text-accent'>.</span>
+              My Portfolio <span className='text-accent'>.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn('up', 0.4)}
@@ -31,8 +31,11 @@ const Work = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
-              eveniet dignissimos distinctio tempore harum laudantium.
+              As a Software Engineer, I've spearheaded several SaaS startups that have caught 
+             the industry's attention and subsequently acquired. This journey has honed my ability to welcome 
+             challenges, architect solutions, and build complex applications using modern technologies. 
+             Here are some of the websites and startups I've launched or created, showcasing the essence of my contributions 
+             to the tech industry.
             </motion.p>
           </div>
 
