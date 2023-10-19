@@ -2,7 +2,7 @@
 export const testimonialSlider = [
   {
     image: '/t-avt-1.png',
-    name: 'Elena Rodriguez',
+    name: 'Ellie Rodriguez',
     position: 'CEO, Rodriguez Retail Group',
     message:
       'Working with James & Akkio was a game-changer for our startup. Their innovative AI-driven solutions not only streamlined our operations but also significantly boosted our market presence',

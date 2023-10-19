@@ -1,8 +1,7 @@
 import React from "react";
-import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import Link from "next/link";
+import styles from '../styles/index.module.css';  // Import the styles
 
 // components
 import ParticlesContainer from '../components/ParticlesContainer';
@@ -10,6 +9,21 @@ import ProjectsBtn from '../components/ProjectsBtn';
 
 // variants
 import { fadeIn } from '../variants';
+
+// Slider variants
+const sliderVariants = {
+  initial: {
+    x: 0,
+  },
+  animate: {
+    x: "-220%",
+    transition: {
+      repeat: Infinity,
+      repeatType: "mirror",
+      duration: 20,
+    },
+  },
+};
 
 const Home = () => {
   return (
@@ -54,8 +68,7 @@ const Home = () => {
             I'm a Software Engineer who has initiated multiple startups, 
             which have secured funding and were subsequently acquired. This journey 
             has honed my ability to welcome challenges, architect solutions, and build 
-            complex applications using modern technologies. My experience is a testament 
-            to my credibility and dedication in the tech industry.
+            complex applications using modern technologies.
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>
@@ -79,6 +92,15 @@ const Home = () => {
         {/* particles */}
         <ParticlesContainer />
       </div>
+      {/* Sliding Text Container */}
+      <motion.div
+        className={styles.slidingTextContainer}
+        variants={sliderVariants}
+        initial="initial"
+        animate="animate"
+      >
+        IndieHacker Tech Enthusiast
+      </motion.div>
     </div>
   );
 };
