@@ -22,14 +22,13 @@ function MyApp({ Component, pageProps }) {
       });
     };
 
-    // Subscribe to route changes
     router.events.on('routeChangeComplete', handleRouteChange);
 
-    // Unsubscribe from route changes
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange);
     };
-  }, [router.events]);
+}, [router.events]);
+
 
   return (
     <Layout>
