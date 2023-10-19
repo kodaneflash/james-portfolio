@@ -9,9 +9,28 @@ import { useRouter } from 'next/router';
 
 // framer motion
 import { AnimatePresence, motion } from 'framer-motion';
+import { useEffect } from 'react'; // Import useEffect hook
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
+
+  // Effect to send pageview updates to Google Analytics on route changes
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      window.gtag('config', process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS, {
+        page_path: url,
+      });
+    };
+
+    // Subscribe to route changes
+    router.events.on('routeChangeComplete', handleRouteChange);
+
+    // Unsubscribe from route changes
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
+
   return (
     <Layout>
       <AnimatePresence mode='wait'>
