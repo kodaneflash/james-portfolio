@@ -67,8 +67,6 @@ const Home = () => {
           >
             I'm passionate about leveraging technical expertise to identify creative solutions that improve operational efficiency. 
             I've architected solutions that have substantially improved operational performance, optimizing both speed and cost-efficiency for businesses.
-
-
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>
@@ -99,7 +97,7 @@ const Home = () => {
         initial="initial"
         animate="animate"
       >
-        IndieHacker Tech Enthusiast
+        Technology
       </motion.div>
     </div>
   );
