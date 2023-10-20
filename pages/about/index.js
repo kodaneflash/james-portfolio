@@ -59,7 +59,7 @@ export const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'Co-Founder & CEO - Akkio, Inc',
+        title: 'Operations Manager - Akkio, Inc',
         stage: '2021 - 2023',
       },
       {
@@ -124,8 +124,8 @@ const About = () => {
             exit='hidden'
             className='h2'
           >
-            Every <span className='text-accent'>story</span> leads to 
-            impactful creations.
+            A <span className='text-accent'>showcase</span> of my 
+            projects.
 
 
           </motion.h2>
@@ -136,12 +136,9 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-             Driven by innovation and a passion for technology, I've embarked on 
-             numerous ventures in the tech world. As a seasoned software engineer, 
-             I've had the privilege of founding multiple startups, each of which has 
-             garnered significant attention and subsequently been acquired. My journey 
-             has been marked by relentless pursuit of excellence, and my track record proves my success.
-
+            I have developed complex, full-stack applications utilizing 
+            modern technologies, resulting in significant improvements in operational efficiency. I'm 
+            passionate about leveraging technical expertise to identify creative solutions that improve operational effectiveness.
           </motion.p>
           {/* counters */}
           <motion.div
