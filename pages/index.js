@@ -65,10 +65,10 @@ const Home = () => {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-            I'm a Software Engineer who has initiated multiple startups, 
-            which have secured funding and were subsequently acquired. This journey 
-            has honed my ability to welcome challenges, architect solutions, and build 
-            complex applications using modern technologies.
+            I'm passionate about leveraging technical expertise to identify creative solutions that improve operational efficiency. 
+            I've architected solutions that have substantially improved operational performance, optimizing both speed and cost-efficiency for businesses.
+
+
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>

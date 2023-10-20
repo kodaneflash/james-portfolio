@@ -137,8 +137,9 @@ const About = () => {
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
             I have developed complex, full-stack applications utilizing 
-            modern technologies, resulting in significant improvements in operational efficiency. I'm 
-            passionate about leveraging technical expertise to identify creative solutions that improve operational effectiveness.
+            modern technologies, resulting in significant improvements in operational efficiency.
+             As a seasoned Software Engineer, I've built sophisticated, full-stack applications 
+             using modern technologies, leading to substantial enhancements in business efficiency.
           </motion.p>
           {/* counters */}
           <motion.div
