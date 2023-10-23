@@ -11,7 +11,7 @@ class MyDocument extends Document {
           {/* Open Graph Protocol */}
           <meta property="og:title" content="My Developer Portfolio" />
           <meta property="og:description" content="Showcase of my Projects" />
-          <meta property="og:image" content="URL_to_image" />
+          <meta property="og:image" content="https://i.imgur.com/S9j0YxI.png" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.jamesarcher.io/" />
           {/* Add more meta tags as needed */}
