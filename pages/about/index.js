@@ -46,7 +46,7 @@ export const aboutData = [
           <FaJava />,
           <SiMysql />,
           <SiRubyonrails />,
-          <SiGo />,
+          <SiGraphql />,
           <SiDjango />,
           <SiTensorflow />,
           <SiTableau />,
