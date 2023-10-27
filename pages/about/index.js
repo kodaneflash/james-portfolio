@@ -14,7 +14,7 @@ import {
 
 import {
   SiNextdotjs,
-  SiGo,
+  SiGraphql
   SiDjango,
   SiMysql,
   SiRubyonrails,

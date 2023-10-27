@@ -31,10 +31,7 @@ const Work = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              As a Software Engineer, I've spearheaded several SaaS startups that have caught 
-             the industry's attention and subsequently acquired. This journey has honed my ability to welcome 
-             challenges, architect solutions, and build complex applications using modern technologies. 
-             Here are some of the websites and startups I've launched or created, showcasing the essence of my contributions 
+             As a seasoned software engineer, here are some of the websites and projects I've created, showcasing the essence of my contributions 
              to the tech industry.
             </motion.p>
           </div>
