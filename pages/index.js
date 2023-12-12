@@ -30,7 +30,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>My Developer Portfolio</title>
+        <title>James - Developer Portfolio</title>
       </Head>
       <div className='bg-primary/60 h-full'>
         {/* text */}
