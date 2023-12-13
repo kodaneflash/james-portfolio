@@ -3,14 +3,14 @@ export const testimonialSlider = [
   {
     image: '/t-avt-1.png',
     name: 'Ellie Rodriguez',
-    position: 'CEO, Rodriguez Retail Group',
+    position: 'CEO, Prince Retail Group',
     message:
       'Working with James & Akkio was a game-changer for our startup. Their innovative AI-driven solutions not only streamlined our operations but also significantly boosted our market presence',
   },
   {
     image: '/t-avt-2.png',
     name: 'Liam Thompson',
-    position: 'Founder, Thompson Tech Solutions',
+    position: 'Founder, Erikkson Tech Solutions',
     message:
       'James business consulting was a revelation for us. The AI-powered insights he provided transformed our decision-making process, giving us a competitive edge we didnt think was possible',
   },
