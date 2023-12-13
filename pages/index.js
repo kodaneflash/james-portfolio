@@ -54,7 +54,7 @@ const Home = () => {
                   1000,
                   "Web Developer",
                   1000,
-                  "AI/ML Engineer",
+                  "Machine Learning Engineer",
                   1000,
                 ]}
                 wrapper="span"
