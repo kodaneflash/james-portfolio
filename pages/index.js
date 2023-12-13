@@ -95,15 +95,6 @@ const Home = () => {
           {/* particles */}
           <ParticlesContainer />
         </div>
-        {/* Sliding Text Container */}
-        <motion.div
-          className={styles.slidingTextContainer}
-          variants={sliderVariants}
-          initial="initial"
-          animate="animate"
-        >
-          Technology
-        </motion.div>
       </div>
     </>
   );
