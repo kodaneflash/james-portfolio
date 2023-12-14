@@ -50,9 +50,9 @@ const Home = () => {
               <TypeAnimation
                 sequence={[
                   1000,
-                  "Software Engineer",
+                  "Software Developer, full-stack.",
                   1000,
-                  "Web Developer",
+                  "Software Automation Engineer",
                   1000,
                   "Machine Learning Engineer",
                   1000,
@@ -70,9 +70,9 @@ const Home = () => {
               exit='hidden'
               className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
             >
-              I'm passionate about leveraging technical expertise to identify creative solutions that improve operational efficiency. 
-              I've architected solutions that have substantially improved operational performance, optimizing both speed and cost-efficiency for businesses.
-            </motion.p>
+              Full Stack Software Developer that’s passionate about leveraging technical expertise to identify creative solutions that improve operational efficiency. I have a strong background in architecting solutions that improve operational performance. 
+              I enjoy and have experience working with deep learning, machine-learning & software automation.
+            </motion.p> 
             {/* btn */}
             <div className='flex justify-center xl:hidden relative'>
               <ProjectsBtn />
