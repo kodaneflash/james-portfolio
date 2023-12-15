@@ -3,14 +3,13 @@ import {
   RiLinkedinBoxFill,
   RiGithubFill,
   RiStackOverflowFill,
-  RiMailAddFill,
   RiTwitterFill,
 } from 'react-icons/ri';
 
 const Socials = () => {
   const socialLinks = {
     linkedin: 'https://www.linkedin.com/in/archermjames/',
-    github: 'https://github.com/jamesonarcher',
+    github: 'https://github.com/kodaneflash',
     stackoverflow: 'https://stackoverflow.com/users/your-id',
     twitter: 'https://twitter.com/your-username',
   };

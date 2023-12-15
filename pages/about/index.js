@@ -21,6 +21,13 @@ import {
   SiTensorflow,
   SiTableau,
   SiScikitlearn,
+  SiJquery,
+  SiSpring,
+  SiSpringboot,
+  SiAmazonec2,
+  SiAngular,
+  SiAwslambda,
+  SiRedux,
 } from 'react-icons/si';
 
 //  about data
@@ -45,12 +52,16 @@ export const aboutData = [
           <FaPython />,
           <FaJava />,
           <SiMysql />,
-          <SiRubyonrails />,
+          <SiSpring />,
           <SiGraphql />,
           <SiDjango />,
-          <SiTensorflow />,
+          <SiAmazonec2 />,
           <SiTableau />,
-          <SiScikitlearn />,
+          <SiJquery />,
+          <SiSpringboot />,
+          <SiAngular />,
+          <SiAwslambda />,
+          <SiRedux />,
         ],
       },
     ],
@@ -59,20 +70,16 @@ export const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'Operations Manager - Akkio, Inc',
-        stage: '2021 - 2023',
-      },
-      {
-        title: 'Software Engineer I - Eriksson Software',
-        stage: '2020 - 2021',
+        title: 'Software Engineer - Convoy, Inc.',
+        stage: '11/2021 - 03/2023',
       },
       {
         title: 'Software Developer - Synergis',
-        stage: '2019 - 2020',
+        stage: '05/2020 - 08/2021',
       },
       {
-        title: 'Intern - Salesforce',
-        stage: '2018',
+        title: 'Software Engineer Intern - Salesforce',
+        stage: '2019',
       },
     ],
   },
@@ -81,7 +88,7 @@ export const aboutData = [
     info: [
       {
         title: 'Bachelors Degree, Computer Science - USF',
-        stage: '2021',
+        stage: '2018 - 2021',
       },
     ],
   },
@@ -171,7 +178,7 @@ const About = () => {
               {/* projects */}
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={5} duration={5} /> +
+                  <CountUp start={0} end={1} duration={5} /> +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   Successful Startups
@@ -180,7 +187,7 @@ const About = () => {
               {/* awards */}
               <div className='relative flex-1'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={11} duration={5} /> +
+                  <CountUp start={0} end={2} duration={5} /> +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   Winning awards
